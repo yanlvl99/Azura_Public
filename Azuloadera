@@ -1,6 +1,6 @@
 local GamesTable = {
   [394506555] = "https://pastebin.com/raw/9ztsSkK6",
-  [4616652839] = "https://pastebin.com/raw/Dfg6EyRn",
+  [4616652839] = "https://pastebin.com/raw/t2wXf2Bb",
 }
 local PId = game.PlaceId
 if GamesTable[PId] then
