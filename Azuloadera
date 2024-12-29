@@ -1,5 +1,9 @@
-if game.PlaceId == 394506555 then
-  loadstring(game:HttpGet("https://pastebin.com/raw/9ztsSkK6"))()
-elseif game.PlaceId == 4616652839 then
-  loadstring(game:HttpGet("https://pastebin.com/raw/Dfg6EyRn"))()
+local GamesTable = {
+  [394506555] = "https://pastebin.com/raw/9ztsSkK6",
+  [4616652839] = "https://pastebin.com/raw/Dfg6EyRn",
+}
+local PId = game.PlaceId
+if GamesTable[PId] then
+  loadstring(game:HttpGet(GamesTable[PId]))()
+  print("Azura Hub Is Here!!!")
 end
