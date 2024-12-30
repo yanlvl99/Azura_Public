@@ -1,6 +1,6 @@
 local GamesTable = {
   [394506555] = "https://pastebin.com/raw/9ztsSkK6",
-  [4616652839] = "https://pastebin.com/raw/t2wXf2Bb",
+  [4616652839] = "https://raw.githubusercontent.com/yanlvl99/Roblox_Scripts/refs/heads/main/shindo",
 }
 local PId = game.PlaceId
 if GamesTable[PId] then
